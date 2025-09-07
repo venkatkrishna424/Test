@@ -1,0 +1,24 @@
+ul {
+  list-style-type:none;
+  padding:5px;
+  overflow: hidden;
+  background-color:burlywood;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+li  {
+  float:left;
+}
+li a.abc {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.abc) {
+  background-color: #555;
+  color: white;
+}
