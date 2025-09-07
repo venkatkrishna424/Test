@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  border: 3px solid royalblue;
+  padding: 5px;
+}
+
+.img1 {
+  float: right;
+  }
+
+.img2 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+</style>
+</head>
+<body>
+
+<h2>Without Clearfix</h2>
+
+<p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+<div>
+  <img class="img1" src="C:\Users\sai12\OneDrive\Pictures\photo-1589122350591-964f4987a296.jpg" alt="sun" width="170" height="170">
+  hii i am learning about clear concept in this programe
+</div>
+
+<h2 style="clear:right">With Clearfix</h2>
+<p>We can dxxhxfghxxhxfix this by adding a clearfix class with overflow: auto; to the containing element:</p>
+
+<div class="clearfix">
+  <img class="img2" src="C:\Users\sai12\OneDrive\Pictures\photo-1589122350591-964f4987a296.jpg" alt="sun" width="170" height="170">
+  hii i am learning about clear concept in this programe
+</div>
+
+</body>
+</html>

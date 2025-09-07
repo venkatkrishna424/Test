@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid greenyellow;
+}
+
+div.gallery:hover {
+  border: 1px solid hotpink;
+}
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 8px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 300px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery {
+    width: 100%;
+  }
+}
+
+
+.clearfix:after {
+  content: "  ";
+  display: table;
+  clear: both;
+}
+
+</style>
+<!--
+  body {
+  background-color: lightcoral;
+}
+
+@media (min-width: 500px) and (max-width: 900px) {
+  body {
+    background-color: purple;
+  }
+}-->
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+       <img src="C:\Users\sai12\OneDrive\Pictures\limbo-wallpaper-preview.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">1</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="C:\Users\sai12\OneDrive\Pictures\limbo-wallpaper-preview.jpg"alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">2</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="C:\Users\sai12\OneDrive\Pictures\limbo-wallpaper-preview.jpg"alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">3</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="C:\Users\sai12\OneDrive\Pictures\limbo-wallpaper-preview.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">4</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:16px;">
+  <p>The Moorgate tube crash occurred on 28 February 1975 on the London Underground's Northern City Line; 43 people died and 74 were injured after a train failed to stop at the line's southern terminus, Moorgate station, and crashed into its end wall. It is the worst peacetime accident on the London Underground. The crash forced the first carriage into the roof of the tunnel; the second carriage collapsed at the front as it collided with the first, and the third rode over the rear of the second. The brakes were not applied and the dead man's handle was still depressed when the train crashed. The inquiry by the Department of the Environment found no fault with the train and concluded that the accident was caused by Leslie Newson, the 56-year-old driver. The post-mortem on Newson showed no medical reason to explain the crash, and a cause has never been established. After the crash, London Underground introduced a new safety system that automatically stops a train that is travelling too fast.</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+   body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+   }
+   * {
+      box-sizing: border-box;
+   }
+   .card {
+      color: white;
+       float: left;
+        width: 20%;
+         padding: 10px;
+      border-radius: 10px;
+      margin: 10px;
+      height: 200px;
+   }
+      .card p {
+      font-size: 18px;
+   }
+   
+      @media screen and (max-width: 600px) {
+      .card {
+         width: 100%;
+         color: red;
+      }
+   }
+</style>
+</head>
+<body>
+<h1>Responsive column card Example</h1>
+<h2>Resize the screen to see the below cards resize themselves</h2>
+
+<div class="cardContainer">
+
+<div class="card" style="background-color:rgb(153, 29, 224);">
+<h2>First card</h2>
+<p>Some text</p>
+</div>
+
+<div class="card" style="background-color:rgb(12, 126, 120);">
+<h2>Second card</h2>
+<p>Some text</p>
+</div>
+
+<div class="card" style="background-color:rgb(207, 41, 91);">
+<h2>Third card</h2>
+<p>Some text</p>
+</div>
+<div class="card" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,20,0.7539390756302521) 44%, rgba(0,198,255,1) 100%);">
+<h2>Fourth card</h2>
+<p>Some text</p>
+</div>
+</div>
+</body>
+</html>

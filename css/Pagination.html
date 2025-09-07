@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pagination a {
+  color: black;
+display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius:80px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color:blueviolet;
+  border-radius:10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Rounded Active and Hover Buttons</h2>
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#" class="active">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#5">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+</body>
+</html>
